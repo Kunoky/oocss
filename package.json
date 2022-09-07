@@ -1,0 +1,26 @@
+{
+  "name": "oocss",
+  "version": "0.0.1",
+  "description": "Simple and easy to use combined CSS library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunoky/oocss.git"
+  },
+  "keywords": [
+    "ui",
+    "css",
+    "oocss",
+    "kuroky",
+    "frontend"
+  ],
+  "author": "kuroky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kunoky/oocss/issues"
+  },
+  "homepage": "https://github.com/Kunoky/oocss#readme"
+}
