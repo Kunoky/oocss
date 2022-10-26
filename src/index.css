@@ -180,6 +180,30 @@
   font-weight: 400;
 }
 
+.fs-1 {
+  font-size: 2em;
+}
+
+.fs-2 {
+  font-size: 1.5em;
+}
+
+.fs-3 {
+  font-size: 1.17em;
+}
+
+.fs-4 {
+  font-size: 1em;
+}
+
+.fs-5 {
+  font-size: 0.83em;
+}
+
+.fs-6 {
+  font-size: 0.67em;
+}
+
 .wb-ba {
   word-break: break-all;
 }
@@ -192,11 +216,11 @@
   white-space: break-spaces;
 }
 
-.wb-nw {
+.ws-nw {
   white-space: nowrap;
 }
 
-.wb-n {
+.ws-n {
   white-space: normal;
 }
 
@@ -351,6 +375,10 @@
 
 .mg-0 {
   margin: 0;
+}
+
+.mg-0a {
+  margin: 0 auto;
 }
 
 .mg-s {
@@ -604,6 +632,7 @@
 }
 
 .dp-f,
+.dp-f1,
 .dp-fa {
   display: flex;
 }
@@ -612,32 +641,68 @@
   flex: 1 1 auto;
 }
 
-.fg-0 {
-  flex-grow: 0;
+.dp-f1 > * {
+  flex: 1 1;
 }
 
-.fg-1 {
-  flex-grow: 1;
+.fl-1 {
+  flex: 1 1;
 }
 
-.fg-2 {
-  flex-grow: 2;
+.fl-2 {
+  flex: 2 2;
 }
 
-.fg-3 {
-  flex-grow: 3;
+.fl-3 {
+  flex: 3 3;
 }
 
-.fg-4 {
-  flex-grow: 4;
+.fl-4 {
+  flex: 4 4;
 }
 
-.fg-6 {
-  flex-grow: 6;
+.fl-5 {
+  flex: 5 5;
 }
 
-.fg-8 {
-  flex-grow: 8;
+.fl-6 {
+  flex: 6 6;
+}
+
+.fl-8 {
+  flex: 8 8;
+}
+
+.fl-1a {
+  flex: 1 1 auto;
+}
+
+.fl-2a {
+  flex: 2 2 auto;
+}
+
+.fl-3a {
+  flex: 3 3 auto;
+}
+
+.fl-4a {
+  flex: 4 4 auto;
+}
+
+.fl-5a {
+  flex: 5 5 auto;
+}
+
+.fl-6a {
+  flex: 6 6 auto;
+}
+
+.fl-8a {
+  flex: 8 8 auto;
+}
+
+.fb-0 {
+  flex-basis: 0;
 }
 
 .va-m {
@@ -726,5 +791,62 @@
 }
 
 .bgc-e {
+  background-color: var(--error-color);
+}
+
+.cs-p {
+  cursor: pointer;
+}
+
+.zi-999 {
+  z-index: 999;
+}
+
+/* Pseudo-classes */
+.tc-p-h:hover {
+  color: var(--primary-color);
+}
+
+.bgc-1-nc2>*:nth-child(2n) {
+  background-color: var(--gray-1);
+}
+
+.bgc-2-nc2>*:nth-child(2n) {
+  background-color: var(--gray-2);
+}
+
+.bgc-3-nc2>*:nth-child(2n) {
+  background-color: var(--gray-3);
+}
+
+.bgc-4-nc2>*:nth-child(2n) {
+  background-color: var(--gray-4);
+}
+
+.bgc-8-nc2>*:nth-child(2n) {
+  background-color: var(--gray-8);
+}
+
+.bgc-9-nc2>*:nth-child(2n) {
+  background-color: var(--gray-9);
+}
+
+.bgc-10-nc2>*:nth-child(2n) {
+  background-color: var(--gray-10);
+}
+
+.bgc-p-nc2>*:nth-child(2n) {
+  background-color: var(--primary-color);
+}
+
+.bgc-s-nc2>*:nth-child(2n) {
+  background-color: var(--success-color);
+}
+
+.bgc-w-nc2>*:nth-child(2n) {
+  background-color: var(--warning-color);
+}
+
+.bgc-e-nc2>*:nth-child(2n) {
   background-color: var(--error-color);
 }
