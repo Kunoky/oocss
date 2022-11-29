@@ -497,6 +497,18 @@
   border-top: 1px solid var(--gray-5);
 }
 
+.bdb {
+  border-bottom: 1px solid var(--gray-5);
+}
+
+.bdl {
+  border-left: 1px solid var(--gray-5);
+}
+
+.bdr {
+  border-right: 1px solid var(--gray-5);
+}
+
 .bd {
   border: 1px solid var(--gray-5);
   border-radius: 2px;
@@ -515,47 +527,47 @@
 }
 
 .bdc-1 {
-  background-color: var(--gray-1);
+  border-color: var(--gray-1);
 }
 
 .bdc-2 {
-  background-color: var(--gray-2);
+  border-color: var(--gray-2);
 }
 
 .bdc-3 {
-  background-color: var(--gray-3);
+  border-color: var(--gray-3);
 }
 
 .bdc-4 {
-  background-color: var(--gray-4);
+  border-color: var(--gray-4);
 }
 
 .bdc-8 {
-  background-color: var(--gray-8);
+  border-color: var(--gray-8);
 }
 
 .bdc-9 {
-  background-color: var(--gray-9);
+  border-color: var(--gray-9);
 }
 
 .bdc-10 {
-  background-color: var(--gray-10);
+  border-color: var(--gray-10);
 }
 
 .bdc-p {
-  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .bdc-s {
-  background-color: var(--success-color);
+  border-color: var(--success-color);
 }
 
 .bdc-w {
-  background-color: var(--warning-color);
+  border-color: var(--warning-color);
 }
 
 .bdc-e {
-  background-color: var(--error-color);
+  border-color: var(--error-color);
 }
 
 .bsd-1 {
@@ -635,6 +647,10 @@
 .dp-f1,
 .dp-fa {
   display: flex;
+}
+
+.fd-c {
+  flex-direction: column;
 }
 
 .dp-fa > * {
@@ -747,6 +763,26 @@
 
 .ai-s {
   align-items: stretch;
+}
+
+.as-c {
+  align-self: center;
+}
+
+.as-b {
+  align-self: baseline;
+}
+
+.as-fe {
+  align-self: flex-end;
+}
+
+.as-fs {
+  align-self: flex-start;
+}
+
+.as-s {
+  align-self: stretch;
 }
 
 /* other */

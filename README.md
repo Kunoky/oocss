@@ -15,7 +15,7 @@ OOCSS does not have any dependency, and can be used by copying and pasting. OOCS
 
 [![NPM version][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.4-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.5-blue.svg
 [npm-url]: https://www.npmjs.com/package/oocss
 
 ## install
