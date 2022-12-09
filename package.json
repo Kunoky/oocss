@@ -1,6 +1,6 @@
 {
   "name": "oocss",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple and easy to use combined CSS library",
   "main": "index.js",
   "scripts": {

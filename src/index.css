@@ -132,11 +132,27 @@
   color: var(--gray-2);
 }
 
+.tc-3 {
+  color: var(--gray-3);
+}
+
+.tc-4 {
+  color: var(--gray-4);
+}
+
+.tc-5 {
+  color: var(--gray-5);
+}
+
+.tc-6 {
+  color: var(--gray-6);
+}
+
 .tc-7 {
   color: var(--gray-7);
 }
 
-.tc-s {
+.tc-8 {
   color: var(--gray-8);
 }
 
