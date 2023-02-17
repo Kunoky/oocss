@@ -124,6 +124,22 @@
   text-align: left;
 }
 
+.td-n {
+  text-decoration: none;
+}
+
+.td-u {
+  text-decoration: underline;
+}
+
+.td-l {
+  text-decoration: line-through;
+}
+
+.td-o {
+  text-decoration: overline;
+}
+
 .tc-1 {
   color: var(--gray-1);
 }
@@ -164,19 +180,19 @@
   color: var(--gray-10);
 }
 
-.tc-p {
+.tc-p, .tc-p-h:hover {
   color: var(--primary-color);
 }
 
-.tc-s {
+.tc-s, .tc-s-h:hover {
   color: var(--success-color);
 }
 
-.tc-w {
+.tc-w, .tc-w-h:hover {
   color: var(--warning-color);
 }
 
-.tc-e {
+.tc-e, .tc-e-h:hover {
   color: var(--error-color);
 }
 
@@ -230,6 +246,10 @@
 
 .ws-bs {
   white-space: break-spaces;
+}
+
+.ws-pl {
+  white-space: pre-line;
 }
 
 .ws-nw {
