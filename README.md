@@ -8,7 +8,7 @@ OOCSS没有任何依赖，OOCSS包含了开发过程中最常用到的样式，�
 
 [![NPM version][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.7-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.8-blue.svg
 [npm-url]: https://www.npmjs.com/package/oocss
 
 简体中文 | [English](./README-en.md)
@@ -72,7 +72,7 @@ __颜色__ 1-10，gray-1 ~ gray-10, p: primary-color, s: success-color, w: warni
 ### demo
 文字居中，灰色，鼠标悬停主题色，加粗，下划线，内边距小，上下外边距大，灰白背景，边框，阴影，鼠标点击样式
 ``` html
-<div class="ta-c tc-7 tc-p-h fw-b td-u pd-s mgv-l bgc-2 bd bsd cs-p">Hello oocss<div>
+<div class="ta-c tc-7 tc-p-h fw-b td-u pd-s mgv-l bgc-2 bd bsd-5 cs-p">Hello oocss<div>
 ```
 flex等分水平垂直居中，dp-f1在设置display: flex的同时会给所有子元素添加flex: 1 1；fs-1 ~ fs-6 同 h1 ~ h6 大小效果一致
 ``` html
@@ -104,4 +104,4 @@ flex等分水平垂直居中，dp-f1在设置display: flex的同时会给所有�
 ```
 # License
 
-oocss is released under the [MIT](https://github.com/kunoky/oocss/master/LICENSE) license.
+oocss is released under the [MIT](https://github.com/kunoky/oocss/blob/master/LICENSE) license.

@@ -9,7 +9,7 @@ OOCSS does not have any dependency, OOCSS contains the most commonly used styles
 
 [![NPM version][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.7-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.8-blue.svg
 [npm-url]: https://www.npmjs.com/package/oocss
 
 [简体中文](./README.md) | English
@@ -84,7 +84,7 @@ border: 1px solid var(--gray-5);
 box-shadow;  
 cursor: pointer;
 ``` html
-<div class="ta-c tc-7 tc-p-h fw-b td-u pd-s mgv-l bgc-2 bd bsd cs-p">Hello oocss<div>
+<div class="ta-c tc-7 tc-p-h fw-b td-u pd-s mgv-l bgc-2 bd bsd-5 cs-p">Hello oocss<div>
 ```
 Flex bisects the space and centers horizontally and vertically. 'dp-f1' will setting display: flex and add 'flex: 1 1' to all child elements; 'fs-1 ~ fs-6' has the same size effect as h1 ~ h6 tags
 ``` html
@@ -116,4 +116,4 @@ Fixed at the bottom of the screen, wd-100 and wd-100vh represent width: 100% and
 ```
 # License
 
-oocss is released under the [MIT](https://github.com/kunoky/oocss/master/LICENSE) license.
+oocss is released under the [MIT](https://github.com/kunoky/oocss/blob/master/LICENSE) license.
