@@ -8,7 +8,7 @@ OOCSS没有任何依赖，OOCSS包含了开发过程中最常用到的样式，�
 
 [![NPM version][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.8-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.9-blue.svg
 [npm-url]: https://www.npmjs.com/package/oocss
 
 简体中文 | [English](./README-en.md)

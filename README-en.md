@@ -9,7 +9,7 @@ OOCSS does not have any dependency, OOCSS contains the most commonly used styles
 
 [![NPM version][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.8-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.0.9-blue.svg
 [npm-url]: https://www.npmjs.com/package/oocss
 
 [简体中文](./README.md) | English
