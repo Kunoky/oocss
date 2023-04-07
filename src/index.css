@@ -17,6 +17,18 @@
   --size-m: 16px;
   --size-l: 24px;
 }
+html.dark {
+  --gray-1: #2c2c2c;
+  --gray-2: #454545;
+  --gray-3: #5b5b5b;
+  --gray-4: #7e7e7e;
+  --gray-5: #adadad;
+  --gray-6: #dcdcdc;
+  --gray-7: #e8e8e8;
+  --gray-8: #f3f3f3;
+  --gray-9: #f8f8f8;
+  --gray-10: #fafafa;
+}
 
 /* document flow */
 .ft-r {
@@ -680,24 +692,39 @@
 
 .of-s {
   overflow: scroll;
-  scrollbar-gutter: stable;
 }
 
 .of-a {
-  overflow: hidden;
-  scrollbar-gutter: stable;
-}
-
-.of-a:hover {
   overflow: auto;
 }
 
 .of-o {
-  overflow: hidden;
+  overflow: overlay;
 }
 
-.of-o:hover {
-  overflow: overlay;
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .of-s,
+  .of-a {
+  scrollbar-gutter: stable;
+    overflow: hidden;
+  }
+
+  .of-o {
+    overflow: hidden;
+  }
+
+  .of-a:hover {
+    overflow: auto;
+  }
+
+  .of-s:hover {
+      overflow: scroll;
+  }
+
+  .of-o:hover {
+    overflow: overlay;
+  }
 }
 
 /* display */
