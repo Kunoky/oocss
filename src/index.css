@@ -964,10 +964,6 @@ html.dark {
 }
 
 /* Pseudo-classes */
-.tc-p-h:hover {
-  color: var(--primary-color);
-}
-
 .bgc-1-nc2>*:nth-child(2n) {
   background-color: var(--gray-1);
 }

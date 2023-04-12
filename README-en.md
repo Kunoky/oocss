@@ -51,6 +51,18 @@ import 'oocss/src/index.css'
   --size-m: 16px;
   --size-l: 24px;
 }
+html.dark {
+  --gray-1: #2c2c2c;
+  --gray-2: #454545;
+  --gray-3: #5b5b5b;
+  --gray-4: #7e7e7e;
+  --gray-5: #adadad;
+  --gray-6: #dcdcdc;
+  --gray-7: #e8e8e8;
+  --gray-8: #f3f3f3;
+  --gray-9: #f8f8f8;
+  --gray-10: #fafafa;
+}
 ```
 
 ### 命名规则
