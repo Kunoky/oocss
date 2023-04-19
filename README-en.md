@@ -4,31 +4,26 @@ Simple and easy to use combined CSS Library
 
 In the actual development process, there will always be a large number of simple and indispensable CSS added repeatedly.
 
-OOCSS does not have any dependency, OOCSS contains the most commonly used styles in the development process, and avoids repeated declarations by combining class names，So that we can complete the style setting without leaving the html code
+OOCSS does not have any dependency, OOCSS contains the most commonly used styles in the development process, and avoids repeated declarations by combining class names，So that we can complete the style setting without leaving the html code.With only one CSS file, viewing the code is more straightforward
 
 
 [![NPM version][npm-image]][npm-url]
 
-[npm-image]: https://img.shields.io/badge/npm-v0.0.9-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v0.1.0-blue.svg
 [npm-url]: https://www.npmjs.com/package/oocss
 
 [简体中文](./README.md) | English
 
-## installation
+## Installation
 
 ```
 $ npm install oocss
 ```
+## Example
 
-## Usage
+[dawn](https://github.com/Kunoky/dawn) | Chinese [mirror](https://gitee.com/Kunoky/dawn)
 
-```javascript
-import 'oocss'
-// or 
-import 'oocss/src/index.css'
-
-<div class="mgt-l pd-m tc-10 ta-c "></div>
-```
+## Variable
 
 ```css
 /** The uniform use of variables is extremely convenient to modify and maintaining consistency */
@@ -65,6 +60,16 @@ html.dark {
 }
 ```
 
+## Usage
+
+```javascript
+import 'oocss'
+// or 
+import 'oocss/src/index.css'
+
+<div class="mgt-l pd-m cl-10 ta-c "></div>
+```
+
 ### 命名规则
 
 Abbreviation-Value-Pseudo Class  
@@ -72,12 +77,10 @@ Abbreviation-Value-Pseudo Class
 __size__ 0： 0px，s: size-s, m: size-m, l: size-l  
 __color__ 1-10，gray-1 ~ gray-10, p: primary-color, s: success-color, w: warning-color, e: error-color  
 
-Abbreviations usually have only 2 characters, and a class usually contains only one style.  
+Abbreviations usually have only 2 characters, up to 3 characters, and a class usually contains only one style. It is easy to associate class names through styles, with extremely low learning.
 .mg-l { margin: var(--size-l); }  
 .dp-f { display: flex; }  
 .ta-c { text-align: center; }
-
-Except for top, bottom, left and right, there are no abbreviations. At present, the abbreviations are up to 3 characters, which is quite concise.  
 .bgc-p { background-color: var(--primary-color); }  
 .mgt-s { margin-top: var(--size-s); }  
 .bdb { border-bottom: 1px solid var(--gray-5); }
@@ -86,7 +89,7 @@ Except for top, bottom, left and right, there are no abbreviations. At present, 
 ### demo
 text-align: center;  
 color: var(--gray-7);  
-.tc-p-h:hover {color: var(--primary-color)};  
+.cl-p-h:hover {color: var(--primary-color)};  
 font-weight: bold;  
 text-decoration: underline;  
 padding: var(--size-s);  
@@ -96,7 +99,7 @@ border: 1px solid var(--gray-5);
 box-shadow;  
 cursor: pointer;
 ``` html
-<div class="ta-c tc-7 tc-p-h fw-b td-u pd-s mgv-l bgc-2 bd bsd-5 cs-p">Hello oocss<div>
+<div class="ta-c cl-7 cl-p-h fw-b td-u pd-s mgv-l bgc-2 bd bs cs-p">Hello oocss<div>
 ```
 Flex bisects the space and centers horizontally and vertically. 'dp-f1' will setting display: flex and add 'flex: 1 1' to all child elements; 'fs-1 ~ fs-6' has the same size effect as h1 ~ h6 tags
 ``` html
@@ -109,21 +112,21 @@ Left and right layout, common in the card layout of the left picture and multipl
 ``` html
 <div class="dp-f ai-c">
   <div>left<div>
-  <div class="fl-1">right<div>
+  <div class="fx-1">right<div>
 <div>
 ```
-Top, middle and bottom layout, fixed top and bottom, full in the middle and overflow scrollable
+Top, middle and bottom layout, fixed top and bottom, full in the middle and overflow scrollable, Optimized scrollbars for Chrome
 ``` html
 <div class="dp-f fd-c">
   <section>header<section>
-  <section class="fl-1 of-a">body<section>
+  <section class="fx-1 of-a">body<section>
   <section>footer<section>
 <div>
 ```
 Fixed at the bottom of the screen, wd-100 and wd-100vh represent width: 100% and width: 100vh respectively
 ``` html
 <body>
-  <button class="pt-f bottom-l wd-100">btn<button>
+  <button class="pt-f bt-l wd-100">btn<button>
 <body>
 ```
 # License
