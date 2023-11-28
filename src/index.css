@@ -696,8 +696,16 @@ html.dark {
   border-style: dashed;
 }
 
-.bs {
+.bs, .bs-s {
   box-shadow: 0 2px 8px var(--gray-3);
+}
+
+.bs-m {
+  box-shadow: 0 2px 16px var(--gray-5);
+}
+
+.bs-l {
+  box-shadow: 0 2px 24px var(--gray-6);
 }
 
 .bs-b {
@@ -716,6 +724,8 @@ html.dark {
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background-color: #cccccc99;
+  min-width: 30%;
+  min-height: 30%;
 }
 
 ::-webkit-scrollbar-button {
@@ -747,7 +757,7 @@ html.dark {
 }
 
 /* Chrome 29+ */
-@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) and (min-width: 1280px) {
   .of-a {
     scrollbar-gutter: stable;
     overflow: hidden;
@@ -1231,4 +1241,41 @@ html.dark {
 
 .lc-6 {
   -webkit-line-clamp: 6;
+}
+
+.pe-n {
+  pointer-events: none;
+}
+
+.pe-f {
+  pointer-events: fill;
+}
+
+.pe-a {
+  pointer-events: all;
+}
+
+.pe-p {
+  pointer-events: painted;
+}
+
+.pe-s {
+  pointer-events: stroke;
+}
+
+
+.pe-v {
+  pointer-events: visible;
+}
+
+.pe-vf {
+  pointer-events: visibleFill;
+}
+
+.pe-vp {
+  pointer-events: visiblePainted;
+}
+
+.pe-vs {
+  pointer-events: visibleStroke;
 }
