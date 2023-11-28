@@ -715,25 +715,28 @@ html.dark {
 .bs-c {
   box-sizing: content-box;
 }
-/* scroll */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
 
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: #cccccc99;
-  min-width: 30%;
-  min-height: 30%;
-}
+@media screen and (min-width: 1280px) {
+  /* scroll */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
 
-::-webkit-scrollbar-button {
-  display: none;
-}
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #cccccc99;
+    min-width: 30%;
+    min-height: 30%;
+  }
 
-::-webkit-scrollbar-corner {
-  display: none;
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-corner {
+    display: none;
+  }
 }
 
 .of-v {
