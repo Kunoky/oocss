@@ -30,6 +30,50 @@ html.dark {
   --gray-10: #fafafa;
 }
 
+.rgb-p {
+  --rgb: 24, 144, 255;
+}
+.rgb-s {
+  --rgb: 82, 196, 26;
+}
+.rgb-w {
+  --rgb: 250, 173, 20;
+}
+.rgb-e {
+  --rgb: 245, 34, 45;
+}
+
+.rgba-1 {
+  --color: rgba(var(--rgb), 0.1);
+}
+.rgba-2 {
+  --color: rgba(var(--rgb), 0.2);
+}
+.rgba-3 {
+  --color: rgba(var(--rgb), 0.3);
+}
+.rgba-4 {
+  --color: rgba(var(--rgb), 0.4);
+}
+.rgba-5 {
+  --color: rgba(var(--rgb), 0.5);
+}
+.rgba-6 {
+  --color: rgba(var(--rgb), 0.6);
+}
+.rgba-7 {
+  --color: rgba(var(--rgb), 0.7);
+}
+.rgba-8 {
+  --color: rgba(var(--rgb), 0.8);
+}
+.rgba-9 {
+  --color: rgba(var(--rgb), 0.9);
+}
+.rgba-10 {
+  --color: rgba(var(--rgb), 1);
+}
+
 /* document flow */
 .ft-r {
   float: right;
@@ -212,6 +256,11 @@ html.dark {
 
 .cl-10 {
   color: var(--gray-10);
+}
+
+.cl-c,
+.cl-c-h:hover {
+  color: var(--color);
 }
 
 .cl-p,
@@ -672,6 +721,10 @@ html.dark {
   border-color: var(--gray-10);
 }
 
+.bdc-c {
+  border-color: var(--color);
+}
+
 .bdc-p {
   border-color: var(--primary-color);
 }
@@ -1030,6 +1083,12 @@ html.dark {
 .bgc-10-h:hover,
 .bgc-10-nc2 > *:nth-child(2n) {
   background-color: var(--gray-10);
+}
+
+.bgc-c,
+.bgc-c-h:hover,
+.bgc-c-nc2 > *:nth-child(2n) {
+  background-color: var(--color);
 }
 
 .bgc-p,
